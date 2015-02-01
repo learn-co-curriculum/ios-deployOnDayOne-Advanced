@@ -75,10 +75,6 @@ static NSString* firebaseURL = @"https://get2knowurnewbesties.firebaseio.com";
     return questionsList;
 }
 
-//-(NSArray *)searchQuestionsList:() {
-//    
-//}
-
 -(NSString *)requestKeyboardInput {
     char string[4096];
     scanf("%s", string);
