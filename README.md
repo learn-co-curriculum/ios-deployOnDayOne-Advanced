@@ -5,24 +5,18 @@ language: objc
 
 # Deploy on Day One - Advanced
 
-## Instructions
-
 So you've built a working interviewing tool. Let's take it a big step further.
+
+
+## Instructions
 
 Connect your project to our actual `get2knowurnewbesties` database.
 
-* To link up to our server, you will need to follow some conventions:
+* After linking up to our server, you will want to log what you get back in order to see the format of the dictionaries.
+* Create methods that reformat them into something more useful for your current program.
+* Consider other updates to your command-line code to make the best use of the API methods provided to you.
 
-You dictionary of interview data must contain the following keys:
-* intervieweeName (NSString)
-* questionNumber (NSNumber)
-* answer (NSString)
-
-Your dictionary of questions must contain the following keys:
-* questionNumber (NSNumber)
-* question (NSString)
-* questionCategory (NSString)
-
+## Hints
 Also, you will need to instantiate a copy of our `FirebaseAPI` class in your `MyApp.m`. Consider adding it as a property, and then instantiating it right at the top of your `execute` method, i.e.
 
 ```
@@ -45,5 +39,5 @@ Also, you will need to instantiate a copy of our `FirebaseAPI` class in your `My
 }
 ```
 
-You can then call the `FirebaseAPI` methods to get access to data on our servers. You do NOT need to understand how they work right now, but it should be somewhat self-explanatory as to what the methods do based on their names in the `FirebaseAPI.h`. You should only be touching the methods listed in `FirebaseAPI.h`.
+You can then call the `FirebaseAPI` methods to get access to data on our servers. You do NOT need to understand how they work right now, but it should be somewhat self-explanatory as to what the methods do based on their names in the `FirebaseAPI.h`. You should only be calling the methods listed in `FirebaseAPI.h`.
 

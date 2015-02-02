@@ -11,8 +11,6 @@
 @interface MyApp : NSObject
 
 @property (strong, nonatomic, readonly) NSString *currentUser;
-@property (strong, nonatomic) NSMutableArray *questionsList;
-@property (strong, nonatomic) NSMutableDictionary *interviews;
 
 -(void)execute;
 
