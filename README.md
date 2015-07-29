@@ -1,7 +1,4 @@
----
-tags: firstDay
-language: objc
----
+
 
 # Deploy on Day One - Advanced
 
