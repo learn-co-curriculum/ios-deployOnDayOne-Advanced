@@ -39,3 +39,5 @@ Also, you will need to instantiate a copy of our `FirebaseAPI` class in your `My
 
 You can then call the `FirebaseAPI` methods to get access to data on our servers. You do NOT need to understand how they work right now, but it should be somewhat self-explanatory as to what the methods do based on their names in the `FirebaseAPI.h`. You should only be calling the methods listed in `FirebaseAPI.h`.
 
+
+<a href='https://learn.co/lessons/ios-deployOnDayOne-Advanced' data-visibility='hidden'>View this lesson on Learn.co</a>
